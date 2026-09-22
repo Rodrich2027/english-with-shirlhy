@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>English with Shilrhy</title>
+
+    <meta
+        name="description"
+        content="Aprende inglés online con Shilrhy. Clases personalizadas adaptadas a tus objetivos."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo">
+            <div class="logo-symbol">
+                S
+            </div>
+
+            <div class="logo-text">
+                <div class="logo-name">
+                    English with Shilrhy
+                </div>
+
+                <div class="logo-description">
+                    Clases de inglés online
+                </div>
+            </div>
+        </a>
+
+        <div class="header-right">
+
+            <button class="student-button" type="button">
+                Mi aprendizaje
+            </button>
+
+            <button
+                class="menu-button"
+                id="openMenu"
+                type="button"
+                aria-label="Abrir menú"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <div class="overlay" id="overlay"></div>
+
+
+    <aside class="sidebar" id="sidebar">
+
+        <div class="sidebar-top">
+
+            <div class="sidebar-title">
+                Mi aprendizaje
+            </div>
+
+            <button
+                class="close-sidebar"
+                id="closeMenu"
+                type="button"
+                aria-label="Cerrar menú"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <div class="sidebar-label">
+            ELIGE TU OBJETIVO
+        </div>
+
+
+        <nav class="sidebar-menu">
+
+            <button class="sidebar-item" type="button">
+                <span class="sidebar-icon">💼</span>
+                <span>Inglés para el trabajo</span>
+            </button>
+
+            <button class="sidebar-item" type="button">
+                <span class="sidebar-icon">💬</span>
+                <span>Inglés conversacional</span>
+            </button>
+
+            <button class="sidebar-item" type="button">
+                <span class="sidebar-icon">📚</span>
+                <span>Inglés para estudiantes</span>
+            </button>
+
+            <button class="sidebar-item" type="button">
+                <span class="sidebar-icon">🎯</span>
+                <span>Preparación para exámenes</span>
+            </button>
+
+            <button class="sidebar-item" type="button">
+                <span class="sidebar-icon">✈️</span>
+                <span>Inglés para viajar</span>
+            </button>
+
+            <button class="sidebar-item" type="button">
+                <span class="sidebar-icon">🗣</span>
+                <span>Pronunciación</span>
+            </button>
+
+            <button class="sidebar-item" type="button">
+                <span class="sidebar-icon">Aa</span>
+                <span>Gramática</span>
+            </button>
+
+            <button class="sidebar-item" type="button">
+                <span class="sidebar-icon">+</span>
+                <span>Otro objetivo</span>
+            </button>
+
+        </nav>
+
+
+        <div class="sidebar-footer">
+
+            <div class="sidebar-footer-box">
+
+                <strong>
+                    Tu aprendizaje, tu camino.
+                </strong>
+
+                Las clases se adaptan a tu nivel,
+                tus objetivos y las situaciones
+                en las que realmente necesitas
+                utilizar el inglés.
+
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <main class="page">
+
+
+        <section class="hero">
+
+            <div class="hero-label">
+                UN ESPACIO HECHO PARA TI
+            </div>
+
+            <h1>
+                Aprende inglés
+                <br>
+                <em>a tu manera.</em>
+            </h1>
+
+            <p class="hero-description">
+                No se trata solamente de aprender inglés.
+                Se trata de aprender a utilizarlo en las
+                situaciones que realmente forman parte de tu vida.
+            </p>
+
+        </section>
+
+
+        <section class="paths">
+
+            <article
+                class="path active"
+                data-type="work"
+            >
+
+                <div class="path-number">
+                    01
+                </div>
+
+                <h3>
+                    Para el trabajo
+                </h3>
+
+                <p>
+                    Reuniones, emails,
+                    presentaciones y comunicación.
+                </p>
+
+            </article>
+
+
+            <article
+                class="path"
+                data-type="conversation"
+            >
+
+                <div class="path-number">
+                    02
+                </div>
+
+                <h3>
+                    Conversacional
+                </h3>
+
+                <p>
+                    Habla con naturalidad
+                    y gana confianza.
+                </p>
+
+            </article>
+
+
+            <article
+                class="path"
+                data-type="student"
+            >
+
+                <div class="path-number">
+                    03
+                </div>
+
+                <h3>
+                    Estudiantes
+                </h3>
+
+                <p>
+                    Aprende según tu nivel,
+                    edad y objetivos.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <section class="presentation">
+
+            <div class="presentation-content">
+
+                <div class="presentation-label">
+                    TU CAMINO DE APRENDIZAJE
+                </div>
+
+                <h2 id="presentationTitle">
+                    Inglés para el trabajo
+                </h2>
+
+                <p id="presentationText">
+                    Aprende a comunicarte con confianza
+                    en reuniones, escribir emails y
+                    desenvolverte en situaciones
+                    profesionales utilizando inglés real.
+                </p>
+
+                <button
+                    class="presentation-button"
+                    type="button"
+                    id="presentationButton"
+                >
+                    Quiero aprender así →
+                </button>
+
+            </div>
+
+
+            <div class="presentation-visual">
+
+                <div class="play-circle">
+                    ▶
+                </div>
+
+                <div class="visual-caption">
+                    CONOCE MI MÉTODO
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="audience">
+
+            <article class="audience-card">
+
+                <div class="audience-icon">
+                    👤
+                </div>
+
+                <h3>
+                    Soy adulto
+                </h3>
+
+                <p>
+                    Quiero mejorar mi inglés para
+                    mi trabajo, viajes, proyectos
+                    o crecimiento personal.
+                </p>
+
+            </article>
+
+
+            <article class="audience-card">
+
+                <div class="audience-icon">
+                    ✦
+                </div>
+
+                <h3>
+                    Soy estudiante
+                </h3>
+
+                <p>
+                    Quiero aprender inglés de una
+                    forma adaptada a mi edad,
+                    nivel y objetivos.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <section class="free-trial">
+
+            <div class="free-trial-content">
+
+                <div class="free-label">
+                    EMPIEZA SIN COMPROMISO
+                </div>
+
+                <h2>
+                    ¿Probamos una clase juntos?
+                </h2>
+
+                <p>
+                    Conoce mi forma de enseñar
+                    y descubre qué podemos trabajar
+                    juntos.
+                </p>
+
+            </div>
+
+
+            <button
+                class="free-button"
+                type="button"
+                id="freeTrialButton"
+            >
+                ✦ Probar una clase gratis
+            </button>
+
+        </section>
+
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <div class="section-heading-left">
+
+                    <span>
+                        CONOCE LAS CLASES
+                    </span>
+
+                    <h2>
+                        Así aprendemos juntos
+                    </h2>
+
+                </div>
+
+                <p>
+                    Pequeños momentos de mis clases
+                </p>
+
+            </div>
+
+
+            <div class="videos">
+
+
+                <article class="video-card">
+
+                    <div
+                        class="video-thumbnail"
+                        data-video="speaking"
+                    >
+
+                        <div class="video-play">
+                            ▶
+                        </div>
+
+                        <div class="video-duration">
+                            01:24
+                        </div>
+
+                    </div>
+
+
+                    <div class="video-info">
+
+                        <div class="video-category">
+                            CONVERSACIÓN
+                        </div>
+
+                        <h3>
+                            Así practicamos speaking
+                        </h3>
+
+                        <p>
+                            Un pequeño resumen de
+                            cómo trabajamos una
+                            conversación real.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="video-card">
+
+                    <div
+                        class="video-thumbnail video-purple"
+                        data-video="class"
+                    >
+
+                        <div class="video-play">
+                            ▶
+                        </div>
+
+                        <div class="video-duration">
+                            02:10
+                        </div>
+
+                    </div>
+
+
+                    <div class="video-info">
+
+                        <div class="video-category">
+                            MÉTODO
+                        </div>
+
+                        <h3>
+                            Cómo es una clase
+                        </h3>
+
+                        <p>
+                            Una pequeña muestra de
+                            la dinámica que utilizamos.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="video-card">
+
+                    <div
+                        class="video-thumbnail video-gold"
+                        data-video="pronunciation"
+                    >
+
+                        <div class="video-play">
+                            ▶
+                        </div>
+
+                        <div class="video-duration">
+                            01:45
+                        </div>
+
+                    </div>
+
+
+                    <div class="video-info">
+
+                        <div class="video-category">
+                            PRONUNCIACIÓN
+                        </div>
+
+                        <h3>
+                            Un ejercicio rápido
+                        </h3>
+
+                        <p>
+                            Mira cómo trabajamos
+                            pronunciación y confianza.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section class="reviews">
+
+            <div class="reviews-top">
+
+                <div>
+
+                    <div class="section-small-label">
+                        EXPERIENCIAS
+                    </div>
+
+                    <h2>
+                        Lo que dicen mis alumnos
+                    </h2>
+
+                </div>
+
+                <span>
+                    Experiencias reales
+                </span>
+
+            </div>
+
+
+            <div class="review-window" id="reviewWindow">
+
+                <div
+                    class="review-track"
+                    id="reviewTrack"
+                >
+
+
+                    <article class="review">
+
+                        <div class="quote">
+                            “
+                        </div>
+
+                        <p class="review-text">
+                            Las clases se sienten
+                            diferentes porque todo
+                            está adaptado a lo que
+                            realmente necesito.
+                        </p>
+
+                        <div class="review-user">
+
+                            <div class="review-avatar">
+                                M
+                            </div>
+
+                            <div>
+
+                                <div class="review-name">
+                                    María
+                                </div>
+
+                                <div class="review-type">
+                                    Inglés conversacional
+                                </div>
+
+                            </div>
+
+                            <div class="stars">
+                                ★★★★★
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="review">
+
+                        <div class="quote">
+                            “
+                        </div>
+
+                        <p class="review-text">
+                            Ahora puedo participar
+                            en reuniones en inglés
+                            sin tener que traducir
+                            cada palabra.
+                        </p>
+
+                        <div class="review-user">
+
+                            <div class="review-avatar">
+                                J
+                            </div>
+
+                            <div>
+
+                                <div class="review-name">
+                                    Javier
+                                </div>
+
+                                <div class="review-type">
+                                    Inglés profesional
+                                </div>
+
+                            </div>
+
+                            <div class="stars">
+                                ★★★★★
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="review">
+
+                        <div class="quote">
+                            “
+                        </div>
+
+                        <p class="review-text">
+                            Me gusta que las clases
+                            estén relacionadas con
+                            situaciones reales y no
+                            solamente con libros.
+                        </p>
+
+                        <div class="review-user">
+
+                            <div class="review-avatar">
+                                A
+                            </div>
+
+                            <div>
+
+                                <div class="review-name">
+                                    Ana
+                                </div>
+
+                                <div class="review-type">
+                                    Inglés para viajar
+                                </div>
+
+                            </div>
+
+                            <div class="stars">
+                                ★★★★★
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="review">
+
+                        <div class="quote">
+                            “
+                        </div>
+
+                        <p class="review-text">
+                            Por primera vez siento
+                            que tengo un camino
+                            claro para mejorar
+                            mi inglés.
+                        </p>
+
+                        <div class="review-user">
+
+                            <div class="review-avatar">
+                                D
+                            </div>
+
+                            <div>
+
+                                <div class="review-name">
+                                    Diego
+                                </div>
+
+                                <div class="review-type">
+                                    Inglés general
+                                </div>
+
+                            </div>
+
+                            <div class="stars">
+                                ★★★★★
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="review">
+
+                        <div class="quote">
+                            “
+                        </div>
+
+                        <p class="review-text">
+                            Las actividades hacen
+                            que aprender vocabulario
+                            sea mucho más natural.
+                        </p>
+
+                        <div class="review-user">
+
+                            <div class="review-avatar">
+                                L
+                            </div>
+
+                            <div>
+
+                                <div class="review-name">
+                                    Laura
+                                </div>
+
+                                <div class="review-type">
+                                    Inglés general
+                                </div>
+
+                            </div>
+
+                            <div class="stars">
+                                ★★★★★
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="review">
+
+                        <div class="quote">
+                            “
+                        </div>
+
+                        <p class="review-text">
+                            Siento que las clases
+                            están hechas específicamente
+                            para mí.
+                        </p>
+
+                        <div class="review-user">
+
+                            <div class="review-avatar">
+                                C
+                            </div>
+
+                            <div>
+
+                                <div class="review-name">
+                                    Carlos
+                                </div>
+
+                                <div class="review-type">
+                                    Inglés profesional
+                                </div>
+
+                            </div>
+
+                            <div class="stars">
+                                ★★★★★
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="review-navigation">
+
+                <button
+                    class="review-arrow"
+                    id="prevReview"
+                    type="button"
+                    aria-label="Reseña anterior"
+                >
+                    ←
+                </button>
+
+
+                <div
+                    class="review-dots"
+                    id="reviewDots"
+                ></div>
+
+
+                <button
+                    class="review-arrow"
+                    id="nextReview"
+                    type="button"
+                    aria-label="Siguiente reseña"
+                >
+                    →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <footer class="footer">
+
+            <span>
+                English with Shilrhy
+            </span>
+
+            <span>
+                Clases de inglés online · Hecho para aprender de verdad
+            </span>
+
+        </footer>
+
+
+    </main>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
