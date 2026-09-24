@@ -43,17 +43,17 @@ const presentationButton =
 const pathContent = {
 
     work: {
-        title: "Inglés para el trabajo",
-        text: "Aprende a comunicarte con confianza en reuniones, escribir emails y desenvolverte en situaciones profesionales utilizando inglés real."
+        title: "Español para el trabajo",
+        text: "Aprende a comunicarte con confianza en reuniones, escribir emails y desenvolverte en situaciones profesionales utilizando español real."
     },
 
     conversation: {
-        title: "Inglés conversacional",
+        title: "Español conversacional",
         text: "Practica conversaciones reales, expresiones naturales y situaciones cotidianas para ganar confianza y hablar con mayor fluidez."
     },
 
     student: {
-        title: "Inglés para estudiantes",
+        title: "Español para estudiantes",
         text: "Construye una base sólida y aprende de una forma adaptada a tu nivel, tus estudios y los objetivos que quieres alcanzar."
     }
 
